@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>cymatics</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://www.cymatics.cc/"/>
+  <updated>2017-03-12T05:25:06.043Z</updated>
+  <id>http://www.cymatics.cc/</id>
+  
+  <author>
+    <name>Wayne Wang</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Yet Another Pell Equation</title>
+    <link href="http://www.cymatics.cc/2013/07/22/2013-07-22-yet-another-pell-equation/"/>
+    <id>http://www.cymatics.cc/2013/07/22/2013-07-22-yet-another-pell-equation/</id>
+    <published>2013-07-22T14:06:00.000Z</published>
+    <updated>2017-03-12T05:25:06.043Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>测试一下 $\LaTeX$效果<br><a id="more"></a> </p>
+</blockquote>
+<ul>
+<li><p>$$1 +  \frac{q^2}{(1-q)}+\frac{q^6}{(1-q)(1-q^2)}+\cdots =<br>\prod_{j=0}^{\infty}\frac{1}{(1-q^{5j+2})(1-q^{5j+3})},<br>\quad\quad \text{for $|q|&lt;1$}$$</p>
+</li>
+<li><p>$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)<br>$$</p>
+</li>
+<li>$$<br>\frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} =<br>1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}<br>  {1+\frac{e^{-8\pi}} {1+\ldots} } } }<br>$$</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;测试一下 $\LaTeX$效果&lt;br&gt;
+    
+    </summary>
+    
+      <category term="math" scheme="http://www.cymatics.cc/categories/math/"/>
+    
+    
+  </entry>
+  
+</feed>
