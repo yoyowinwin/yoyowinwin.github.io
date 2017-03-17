@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.cymatics.cc/"/>
-  <updated>2017-03-12T09:37:08.764Z</updated>
+  <updated>2017-03-17T14:25:28.421Z</updated>
   <id>http://www.cymatics.cc/</id>
   
   <author>
@@ -16,11 +16,61 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>临终关怀协议</title>
+    <link href="http://www.cymatics.cc/2017/03/17/A-Protocol-for-Dying/"/>
+    <id>http://www.cymatics.cc/2017/03/17/A-Protocol-for-Dying/</id>
+    <published>2017-03-17T11:48:09.000Z</published>
+    <updated>2017-03-17T14:25:28.421Z</updated>
+    
+    <content type="html"><![CDATA[<p>去年国庆期间,高性能异步消息库<a href="http://zeromq.org/">ZeroMQ</a>的作者Pieter Hintjens选择了安乐死,他在2016年4月22日写的一篇文章<a href="http://hintjens.com/blog:115">A Protocol for Dying</a> 广为流传.此间中文社区的各种翻译,有<strong>最后的协议</strong>,有<strong>临终协定</strong>,…,都是不妥帖的.只有翻译成<strong>临终关怀协议</strong>,才算是真正的GET到了作者面对死亡的那种调侃而又认真的心态.</p>
+<hr>
+<blockquote>
+<p>   我写最后一篇的时候到了。如果我有时间处理所有的事情的话或许我会再多写点，但此后，我得要把注意力放在床上最舒适的姿势、打止痛药的时间以及我身边的人了。<br>所以，我要写下这个最后的模型，这次是关于如何面对死亡，我付出一点时间来给大家道破一些直率了当的知识。这次我写的不是规格书(RFC; Request for Comments)，无法再请大家给意见了 :)</p>
+</blockquote>
+<p><strong>以下是关于临终关怀的协议部分</strong></p>
+<p>与临终者谈话可能很艰辛，我们暂时称他为Bob，其他人称为Alice.</p>
+<h3 id="Alice的责任"><a href="#Alice的责任" class="headerlink" title="Alice的责任"></a>Alice的责任</h3><p>以下几点是Alice不应该对Bob说的：</p>
+<p><del><strong>”撑着点！你必须保持希望，你必须击败它！”</strong></del> ，你要假设 「Bob已经尽力去击败病魔了」，这个假设不会错的，就算他没有，那也是他的选择。<br><del><strong>”好悲惨，我好难过，你不能死”</strong></del>，我女儿曾对我讲过这句话，我当时跟她说这是无可争论的现实，死亡是不允许我们选择的。对事实生气或难过是在浪费时间无法改变事实。<br><del><strong>”你一定可以打败它！不试怎么知道” </strong></del>，这是Alice在表达她的期望。错误的期望不是治疗，好的化疗药剂或者解痛剂，那才是治疗。<br><del><strong>“传闻有一些实验性病人被医好了”</strong></del>，这句话让我很想拿锤子，还好对我讲这种话的人不多。就算真有仙丹妙药，也要考虑费用跟找到它对其他人所造成的压力，我们大家都知道，找到的机率像中头彩一样渺茫，那样做的话很自私也没效益。人之为人，有生有死。<br><del><strong>”读圣经第几章第几节，会对你有帮助”</strong></del>，这种讲法是既鲁莽又失礼，再加上愚蠢与傲慢。如果Bob需要信仰帮忙的话，他自己会去找牧师，如果没有就是他不想去。这句话也会让我想拿锤子。<br><del><strong>蹑声蹑语吞吞吐吐地探问是一种消极性的骚扰</strong></del>。让Bob一再反覆回答一些细微、无聊的蠢问题。例如「我把你吵醒了吗」，很可能Bob根本没有心情跟你作无意义的闲聊乱扯，他要么想要人们亲近他，身体性的，要么跟他讲些有趣的事情（下面会讲）。<br>此外，不要打电话给他然后在电话上哭，如果你感觉快要哭了，先挂断电话等个十分钟后再打。流眼泪不是问题，可是对Bob而言「感受到自己的悲哀」更令他完全陷入无尽的黑暗。我已经知道该怎么主导自己的情绪，然而大部分的情况下Bob的心灵还是很脆弱的。</p>
+<p>以下是Alice可以对Bob交谈，会令他感到快乐的事：</p>
+<ul>
+<li><strong>曾经一起经历过的陈年往事</strong>。 ”还记得那时候吗？”，”喔！我想起来了，…，真棒！”</li>
+<li><strong>诊疗的细节</strong>。Bob现在困在病床上，他经历林林总总行礼如仪的疗程、医护人员、药物以及他罹患的疾病等等。我会立刻靠上前去倾听Bob跟我分享。</li>
+<li><strong>帮忙Bob处理技术性问题</strong>（译注一）。要让生活井然有序很麻烦，需要人出手相助与心力关照。假若Bob像我一样是个作家的话，可以跟他说”我买了你的书”这一类的话，不管是基于阿谀奉承或者真心都能让Bob会心一笑。</li>
+<li><strong>还有，除了快乐之外的其他情绪不必透露</strong>。记得，不要给他出新的功课。  </li>
+</ul>
+<p>译注一：可能是指一些无关心理、情绪性层面的事情。例如跑跑腿买点东西之类，形而下的事情。</p>
+<h3 id="Bob的责任"><a href="#Bob的责任" class="headerlink" title="Bob的责任"></a>Bob的责任</h3><p>不是全部都是Alice的事，在此协定中Bob也有他的责任，至少有以下几件事：</p>
+<ul>
+<li><strong>常喜乐</strong>。这点听起来有迂腐但它是必要的。如果Bob郁郁寡欢，Alice每次跟他讲话也会跟着心情沮丧。<br>无庸置疑，Bob必须把自己的事情处理好。既然已经预期到来日无多，应该尽力让自己变得可有可无。在家庭上，这不可能做到，但是在工作上是做得到的。我已经被认为会死好几年了，所以这几年来我已经把自己从活跃的ZeroMQ社群里面抽离。<br>减少所有能减少的压力跟花费。例如，比利时可以安乐死，我已经告诉医生请他们准备了。 （不是现在！时机到的时候…）我会请人们当我还活着的时候来道别，不必办丧礼。我准备把大体捐给大学，如果他们要的话。</li>
+<li><strong>认清现实</strong>，愿望不是医疗，这点我已经解释过了。如果你打算跟你的医生协商，那么讨论些实用性的，让其他人都能受惠的议题。我已经告诉我的医生，如果他们想在我身上实验任何化疗药物就尽管去作。他们获得了数据，而我起码也对这个让我多活了五年以上的医疗系统作点贡献。</li>
+<li><strong>作最坏打算</strong>。我的肿瘤医师当时一看到我的片子马上打电话给我，说她研判是癌症。左右两边的肺部都有，处处可见。我放下电话，告诉孩子，隔天我也把最坏的状况告诉孩子们的学校，然后是家庭律师、公证人。十天之后，切片病理检验确认是癌症，这额外的十天让我有时间作准备，也让我自己有时间替自己感到悲伤。</li>
+<li><strong>坦诚、透明地面对其他人</strong>。其他人需要有时间去悲伤，如果他们能在Bob还能讲话时跟他讨论的话，处理后事相对会简单得多。没什么好难以启齿的，死亡并不是失败。</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;去年国庆期间,高性能异步消息库&lt;a href=&quot;http://zeromq.org/&quot;&gt;ZeroMQ&lt;/a&gt;的作者Pieter Hintjens选择了安乐死,他在2016年4月22日写的一篇文章&lt;a href=&quot;http://hintjens.com/blog:115&quot;&gt;A
+    
+    </summary>
+    
+      <category term="miscellaneous" scheme="http://www.cymatics.cc/categories/miscellaneous/"/>
+    
+    
+      <category term="死亡" scheme="http://www.cymatics.cc/tags/%E6%AD%BB%E4%BA%A1/"/>
+    
+      <category term="协议" scheme="http://www.cymatics.cc/tags/%E5%8D%8F%E8%AE%AE/"/>
+    
+      <category term="ZeroMQ" scheme="http://www.cymatics.cc/tags/ZeroMQ/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Yet Another Pell Equation</title>
     <link href="http://www.cymatics.cc/2013/07/22/2013-07-22-yet-another-pell-equation/"/>
     <id>http://www.cymatics.cc/2013/07/22/2013-07-22-yet-another-pell-equation/</id>
     <published>2013-07-22T14:06:00.000Z</published>
-    <updated>2017-03-12T09:37:08.764Z</updated>
+    <updated>2017-03-12T13:04:59.442Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>测试一下 $\LaTeX$效果<br><a id="more"></a> </p>
@@ -32,6 +82,88 @@
 </li>
 <li>$$<br>\frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} =<br>1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}<br>  {1+\frac{e^{-8\pi}} {1+\ldots} } } }<br>$$</li>
 </ul>
+<h1 id="欢迎使用马克飞象"><a href="#欢迎使用马克飞象" class="headerlink" title="欢迎使用马克飞象"></a>欢迎使用马克飞象</h1><p>@(示例笔记本)[马克飞象|帮助|Markdown]</p>
+<p><strong>马克飞象</strong>是一款专为印象笔记（Evernote）打造的Markdown编辑器，通过精心的设计与技术实现，配合印象笔记强大的存储和同步功能，带来前所未有的书写体验。特点概述：</p>
+<ul>
+<li><strong>功能丰富</strong> ：支持高亮代码块、<em>LaTeX</em> 公式、流程图，本地图片以及附件上传，甚至截图粘贴，工作学习好帮手；</li>
+<li><strong>得心应手</strong> ：简洁高效的编辑器，提供<a href="http://maxiang.info/client_zh">桌面客户端</a>以及<a href="https://chrome.google.com/webstore/detail/kidnkfckhbdkfgbicccmdggmpgogehop">离线Chrome App</a>，支持移动端 Web；</li>
+<li><strong>深度整合</strong> ：支持选择笔记本和添加标签，支持从印象笔记跳转编辑，轻松管理。</li>
+</ul>
+<hr>
+<p>[TOC]</p>
+<h2 id="Markdown简介"><a href="#Markdown简介" class="headerlink" title="Markdown简介"></a>Markdown简介</h2><blockquote>
+<p>Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面。    —— <a href="https://zh.wikipedia.org/wiki/Markdown">维基百科</a></p>
+</blockquote>
+<p>正如您在阅读的这份文档，它使用简单的符号标识不同的标题，将某些文字标记为<strong>粗体</strong>或者<em>斜体</em>，创建一个<a href="http://www.example.com">链接</a>或一个脚注[^demo]。下面列举了几个高级功能，更多语法请按<code>Ctrl + /</code>查看帮助。 </p>
+<h3 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="meta">@requires_authorization</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">somefunc</span><span class="params">(param1=<span class="string">''</span>, param2=<span class="number">0</span>)</span>:</span></div><div class="line">    <span class="string">'''A docstring'''</span></div><div class="line">    <span class="keyword">if</span> param1 &gt; param2: <span class="comment"># interesting</span></div><div class="line">        <span class="keyword">print</span> <span class="string">'Greater'</span></div><div class="line">    <span class="keyword">return</span> (param2 - param1 + <span class="number">1</span>) <span class="keyword">or</span> <span class="keyword">None</span></div><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">SomeClass</span>:</span></div><div class="line">    <span class="keyword">pass</span></div><div class="line"><span class="meta">&gt;&gt;&gt; </span>message = <span class="string">'''interpreter</div><div class="line"><span class="meta">... </span>prompt'''</span></div></pre></td></tr></table></figure>
+<h3 id="LaTeX-公式"><a href="#LaTeX-公式" class="headerlink" title="LaTeX 公式"></a>LaTeX 公式</h3><p>可以创建行内公式，例如 $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$。或者块级公式：</p>
+<p>$$    x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$</p>
+<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><table>
+<thead>
+<tr>
+<th style="text-align:left">Item</th>
+<th style="text-align:right">Value</th>
+<th style="text-align:center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Computer</td>
+<td style="text-align:right">1600 USD</td>
+<td style="text-align:center">5</td>
+</tr>
+<tr>
+<td style="text-align:left">Phone</td>
+<td style="text-align:right">12 USD</td>
+<td style="text-align:center">12</td>
+</tr>
+<tr>
+<td style="text-align:left">Pipe</td>
+<td style="text-align:right">1 USD</td>
+<td style="text-align:center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="流程图"><a href="#流程图" class="headerlink" title="流程图"></a>流程图</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">st=&gt;start: Start</div><div class="line">e=&gt;end</div><div class="line">op=&gt;operation: My Operation</div><div class="line">cond=&gt;condition: Yes or No?</div><div class="line"></div><div class="line">st-&gt;op-&gt;cond</div><div class="line">cond(yes)-&gt;e</div><div class="line">cond(no)-&gt;op</div></pre></td></tr></table></figure>
+<p>以及时序图:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">Alice-&gt;Bob: Hello Bob, how are you?</div><div class="line">Note right of Bob: Bob thinks</div><div class="line">Bob--&gt;Alice: I am good thanks!</div></pre></td></tr></table></figure>
+<blockquote>
+<p><strong>提示：</strong>想了解更多，请查看<strong>流程图</strong><a href="http://adrai.github.io/flowchart.js/">语法</a>以及<strong>时序图</strong><a href="http://bramp.github.io/js-sequence-diagrams/">语法</a>。</p>
+</blockquote>
+<h3 id="复选框"><a href="#复选框" class="headerlink" title="复选框"></a>复选框</h3><p>使用 <code>- [ ]</code> 和 <code>- [x]</code> 语法可以创建复选框，实现 todo-list 等功能。例如：</p>
+<ul>
+<li>[x] 已完成事项</li>
+<li>[ ] 待办事项1</li>
+<li>[ ] 待办事项2</li>
+</ul>
+<blockquote>
+<p><strong>注意：</strong>目前支持尚不完全，在印象笔记中勾选复选框是无效、不能同步的，所以必须在<strong>马克飞象</strong>中修改 Markdown 原文才可生效。下个版本将会全面支持。</p>
+</blockquote>
+<h2 id="印象笔记相关"><a href="#印象笔记相关" class="headerlink" title="印象笔记相关"></a>印象笔记相关</h2><h3 id="笔记本和标签"><a href="#笔记本和标签" class="headerlink" title="笔记本和标签"></a>笔记本和标签</h3><p><strong>马克飞象</strong>增加了<code>@(笔记本)[标签A|标签B]</code>语法, 以选择笔记本和添加标签。 <strong>绑定账号后</strong>， 输入<code>(</code>自动会出现笔记本列表，请从中选择。</p>
+<h3 id="笔记标题"><a href="#笔记标题" class="headerlink" title="笔记标题"></a>笔记标题</h3><p><strong>马克飞象</strong>会自动使用文档内出现的第一个标题作为笔记标题。例如本文，就是第一行的 <code>欢迎使用马克飞象</code>。</p>
+<h3 id="快捷编辑"><a href="#快捷编辑" class="headerlink" title="快捷编辑"></a>快捷编辑</h3><p>保存在印象笔记中的笔记，右上角会有一个红色的编辑按钮，点击后会回到<strong>马克飞象</strong>中打开并编辑该笔记。</p>
+<blockquote>
+<p><strong>注意：</strong>目前用户在印象笔记中单方面做的任何修改，马克飞象是无法自动感知和更新的。所以请务必回到马克飞象编辑。</p>
+</blockquote>
+<h3 id="数据同步"><a href="#数据同步" class="headerlink" title="数据同步"></a>数据同步</h3><p><strong>马克飞象</strong>通过<strong>将Markdown原文以隐藏内容保存在笔记中</strong>的精妙设计，实现了对Markdown的存储和再次编辑。既解决了其他产品只是单向导出HTML的单薄，又规避了服务端存储Markdown带来的隐私安全问题。这样，服务端仅作为对印象笔记 API调用和数据转换之用。</p>
+<blockquote>
+<p><strong>隐私声明：用户所有的笔记数据，均保存在印象笔记中。马克飞象不存储用户的任何笔记数据。</strong></p>
+</blockquote>
+<h3 id="离线存储"><a href="#离线存储" class="headerlink" title="离线存储"></a>离线存储</h3><p><strong>马克飞象</strong>使用浏览器离线存储将内容实时保存在本地，不必担心网络断掉或浏览器崩溃。为了节省空间和避免冲突，已同步至印象笔记并且不再修改的笔记将删除部分本地缓存，不过依然可以随时通过<code>文档管理</code>打开。</p>
+<blockquote>
+<p><strong>注意：</strong>虽然浏览器存储大部分时候都比较可靠，但印象笔记作为专业云存储，更值得信赖。以防万一，<strong>请务必经常及时同步到印象笔记</strong>。</p>
+</blockquote>
+<h2 id="编辑器相关"><a href="#编辑器相关" class="headerlink" title="编辑器相关"></a>编辑器相关</h2><h3 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h3><p>右侧系统菜单（快捷键<code>Ctrl + M</code>）的<code>设置</code>中，提供了界面字体、字号、自定义CSS、vim/emacs 键盘模式等高级选项。</p>
+<h3 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h3><p>帮助    <code>Ctrl + /</code><br>同步文档    <code>Ctrl + S</code><br>创建文档    <code>Ctrl + Alt + N</code><br>最大化编辑器    <code>Ctrl + Enter</code><br>预览文档 <code>Ctrl + Alt + Enter</code><br>文档管理    <code>Ctrl + O</code><br>系统菜单    <code>Ctrl + M</code> </p>
+<p>加粗    <code>Ctrl + B</code><br>插入图片    <code>Ctrl + G</code><br>插入链接    <code>Ctrl + L</code><br>提升标题    <code>Ctrl + H</code></p>
+<h2 id="关于收费"><a href="#关于收费" class="headerlink" title="关于收费"></a>关于收费</h2><p><strong>马克飞象</strong>为新用户提供 10 天的试用期，试用期过后需要<a href="maxiang.info/vip.html">续费</a>才能继续使用。未购买或者未及时续费，将不能同步新的笔记。之前保存过的笔记依然可以编辑。</p>
+<h2 id="反馈与建议"><a href="#反馈与建议" class="headerlink" title="反馈与建议"></a>反馈与建议</h2><ul>
+<li>微博：<a href="http://weibo.com/u/2788354117">@马克飞象</a>，<a href="http://weibo.com/ggock" title="开发者个人账号">@GGock</a></li>
+<li>邮箱：<a href="&#109;&#97;&#x69;&#x6c;&#116;&#x6f;&#58;&#x68;&#x75;&#x73;&#116;&#103;&#111;&#99;&#x6b;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#x68;&#x75;&#x73;&#116;&#103;&#111;&#99;&#x6b;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#x6d;</a></li>
+</ul>
+<hr>
+<p>感谢阅读这份帮助文档。请点击右上角，绑定印象笔记账号，开启全新的记录与分享体验吧。</p>
+<p>[^demo]: 这是一个示例脚注。请查阅 <a href="https://github.com/fletcher/MultiMarkdown/wiki/MultiMarkdown-Syntax-Guide#footnotes">MultiMarkdown 文档</a> 关于脚注的说明。 <strong>限制：</strong> 印象笔记的笔记内容使用 <a href="https://dev.yinxiang.com/doc/articles/enml.php">ENML</a> 格式，基于 HTML，但是不支持某些标签和属性，例如id，这就导致<code>脚注</code>和<code>TOC</code>无法正常点击。</p>
 ]]></content>
     
     <summary type="html">
